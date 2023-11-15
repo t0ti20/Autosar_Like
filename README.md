@@ -17,7 +17,7 @@ Welcome to the repository that contains the implementation of the AUTOSAR Det (D
 
 The presented software components, Det and Dio, are developed in compliance with the AUTOSAR R22-11 standard. The test application serves as a standalone demonstration of how to utilize the Dio driver with the Infineon XM1100.
 
-## [Det Module](https://github.com/t0ti20/My_Implementation/blob/master/MicroControllers/XMC1100/Autosar/System_Services/Det.c)
+## [Det Module](https://github.com/t0ti20/Autosar_Like/blob/master/System_Services/Det.c)
 
 **Description:**  
 The Det module is responsible for reporting all detected development and runtime errors in the Basic Software.
@@ -26,7 +26,7 @@ The Det module is responsible for reporting all detected development and runtime
 - Include `Det.h` in your source code.
 - Use the `Det_ReportError` function to report any detected errors, passing in the relevant Module ID, Instance ID, API ID, and Error ID.
 
-## [Dio Module](https://github.com/t0ti20/My_Implementation/blob/master/MicroControllers/XMC1100/Autosar/Basic_Software/IO_Drivers/Dio.c)
+## [Dio Module](https://github.com/t0ti20/Autosar_Like/blob/master/Basic_Software/IO_Drivers/Dio.c)
 
 **Description:**  
 The Dio module provides APIs for the configuration and control of the Digital Input/Output channels and ports.
@@ -44,7 +44,7 @@ The Dio module provides APIs for the configuration and control of the Digital In
 ## Test Application
 
 **Description:**  
-The provided application [(`Application.c`)](https://github.com/t0ti20/My_Implementation/blob/master/MicroControllers/XMC1100/Autosar/Application.c) serves as a standalone test to demonstrate the configuration and control of various GPIO pins for the Infineon XM1100. Note: This application is not developed following the AUTOSAR standards but is intended for testing purposes.
+The provided application [(`Application.c`)](https://github.com/t0ti20/Autosar_Like/blob/master/Application.c) serves as a standalone test to demonstrate the configuration and control of various GPIO pins for the Infineon XM1100. Note: This application is not developed following the AUTOSAR standards but is intended for testing purposes.
 
 **Key Features:**  
 - Initializes and configures GPIO channels.
